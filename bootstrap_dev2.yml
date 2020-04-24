@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    renewal-percent-threshold: 0.85
+    enable-self-preservation: false
